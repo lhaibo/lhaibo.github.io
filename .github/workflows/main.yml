@@ -18,7 +18,8 @@ jobs:
         with:
           ref: hexo
       - name: node20
-        using: "node20"
+        run: 
+          using: "node20"
       - name: Cache node_modules # 缓存 node_modules，提高编译速度，毕竟每月只有 2000 分钟。
         uses: actions/cache@v2
         env:
