@@ -47,7 +47,7 @@ jobs:
           echo "build blog successful"
       - name: Deploy Blog # 设置 git 信息并推送静态博客文件
         env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.CLI_TOKEN }}
+          CLI_TOKEN: ${{ secrets.CLI_TOKEN }}
         run: |
           git config --global user.name "lihaibo"
           git config --global user.email "haibofly@outlook.com"
