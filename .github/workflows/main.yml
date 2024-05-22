@@ -51,6 +51,7 @@ jobs:
         run: |
           git config --global user.name "lihaibo"
           git config --global user.email "haibofly@outlook.com"
+          sed -i 's|repo:.*|repo: https://lhaibo:${{ env.CLI_TOKEN }}@github.com/lhaibo/lhaibo.github.io.git|' _config.yml
           hexo deploy
 
       - run: echo "Deploy Successful!"
