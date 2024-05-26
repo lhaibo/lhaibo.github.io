@@ -15,6 +15,9 @@
               <div class="post-date">
                 <i class="fa fa-calendar"></i>&nbsp;&nbsp;<span class="post-date"><%= date(page.date, 'YYYY/MM/DD') %></span>
               </div>
+              <span title="{{ __('post.wordcount') }}">
+                <%- symbolsCount(page.content) %> 字
+              </span>
               <div class="post-tags">
                 <% if(page.tags.length == 0) { %>
                   <div class="tag-item">

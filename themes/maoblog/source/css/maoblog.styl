@@ -24,6 +24,9 @@
   --archive-title-color: #000
   --archive-title-color-hover: #4a4cd4
 
+  // span间隔
+  --span-spacing: 5px
+
 body
   // TODO 谷歌字体
   font-family: "Montserrat", "SF UI Text", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif
@@ -127,21 +130,27 @@ ul
   background: var(--evenbg)
 
 .archive li span
-  width: 108px
+  width: 100px
   color: var(--archive-date-color)
-  padding-left: 5px
+  padding-left: var(--span-spacing)
+  padding-right: var(--span-spacing)
 
 .archive-main
-  flex: 0 1 calc( 100% - 108px)
+  flex: 0 1 calc( 100% - 100px)
 
 .archive-title
   color: var(--archive-title-color)
+  padding-left: var(--span-spacing)
   // 过渡控制
   // transition: color ease-in-out 0.3s
 
 .archive-title:hover
   color: var(--archive-title-color-hover)
+  padding-left: var(--span-spacing)
   transition: color ease-in-out 0.1s
+
+.archive-calcu
+  font-size: 0.9rem
 
 .footer-container
     display: flex

@@ -133,3 +133,13 @@ deploy:
   type: git
   repo: https://lhaibo@github.com/lhaibo/lhaibo.github.io.git
   branch: master
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+  awl: 2
+  wpm: 300
+  suffix: "mins."

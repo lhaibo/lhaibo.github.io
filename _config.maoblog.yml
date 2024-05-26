@@ -49,3 +49,7 @@ tag_generator:
 # 控制文章信息
 meta:
   enable: true
+
+post_meta:
+  item_text: true
+
