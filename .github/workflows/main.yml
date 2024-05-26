@@ -2,7 +2,7 @@ name: Blog CI/CD # 脚本 workflow 名称
 
 on:
   push:
-    branches: [hexo] # 当监测 hexo 的 push
+    branches: [blog] # 当监测 hexo 的 push
     paths: # 监测所有 source 目录下的文件变动，所有 yml,json 后缀文件的变动。
       - '*.json'
       - '**.yml'
