@@ -1,0 +1,12 @@
+{
+  "userIgnoreFilters": [
+    "node_modules/",
+    "themes/",
+    "scaffolds/",
+    "public/",
+    "themes/"
+  ],
+  "attachmentFolderPath": "./图片test",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "source/_posts"
+}

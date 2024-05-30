@@ -5,4 +5,8 @@ db.json
 node_modules/
 public/
 .deploy*/
-_config - 副本.yml
+.obsidian/workspace
+source/_posts/.obsidian/workspace.json
+.obsidian/workspace.json
+.trash
+.obsidian/workspace.json
