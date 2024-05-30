@@ -116,5 +116,5 @@ var test = function this_is(){
 > here is blockquote
 
 [Relative image link](afu.png)
-![[image-20240531005754038.png]]
+
 
