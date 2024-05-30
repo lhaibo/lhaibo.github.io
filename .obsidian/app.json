@@ -6,9 +6,9 @@
     "public/",
     "themes/"
   ],
-  "attachmentFolderPath": "./assets/图片test",
+  "attachmentFolderPath": "./markdown-test",
   "newFileLocation": "folder",
   "newFileFolderPath": "source/_posts",
-  "useMarkdownLinks": true,
-  "newLinkFormat": "relative"
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest"
 }

@@ -115,6 +115,6 @@ var test = function this_is(){
 
 > here is blockquote
 
-[Relative image link](assets/markdown-test/afu.png)
+[Relative image link](afu.png)
 
 
