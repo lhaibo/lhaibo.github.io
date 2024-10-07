@@ -6,7 +6,7 @@
     "public/",
     "themes/"
   ],
-  "attachmentFolderPath": "./图片test",
+  "attachmentFolderPath": "./我目前常用的软件与工具",
   "newFileLocation": "folder",
   "newFileFolderPath": "source/_posts",
   "useMarkdownLinks": true,
